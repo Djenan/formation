@@ -15,3 +15,5 @@
 - Get sky stuff working
 - Get sky stuff going in the right directory
 - Add message to reboot
+- ohmyzsh trying to install twice... fix
+- Mas settings dont seem to work
