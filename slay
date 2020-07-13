@@ -217,11 +217,11 @@ fi
 ###############################################################################
 chapter "Setting up macOS prefs…"
 if [ -f "$HOME/.macos-prefs" ]; then
-	# if ask "Do you want to add hot sauce?" Y; then
+	if ask "Do you want to set mac prefs?" Y; then
 		. "$HOME/.macos-prefs"; printf "\n  Setting macOS settings. 🔥 ${bold}Swag.${normal}\n";
-	# else
-		# print_success_muted "Hot sauce declined. Skipped.";
-	# fi
+	else
+		print_success_muted "MacOS pref setting skipped.";
+	fi
 else
 	print_warning "No ~/.macos-prefs found. Skipping."
 fi
