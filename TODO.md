@@ -8,3 +8,6 @@
 - Startup items
   - Amphetamine
   - Magnet
+- Need to download solarized before installing it (.macos-prefs)
+- Copy .dotfiles into ~/ at start
+- Delete .dotfiles from ~/ at end

@@ -702,7 +702,7 @@ sudo defaults write com.apple.mail DisableInlineAttachmentViewing -bool true
 sudo defaults write com.apple.Terminal ShowLineMarks -int 0
 
 # Install the Solarized Dark theme for iTerm
-sudo open "${HOME}/init/Solarized Dark.itermcolors"
+# sudo open "${HOME}/init/Solarized Dark.itermcolors"
 
 # Don’t display the annoying prompt when quitting iTerm
 sudo defaults write com.googlecode.iterm2 PromptOnQuit -bool false
