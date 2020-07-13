@@ -55,8 +55,6 @@ chsh -s /bin/zsh
 # Iterm customisations
 
 
-
-step "Installing VS Code extensions…"
 VSCODEEXTENSIONS=(
     # Code Formatting 
     dbaeumer.vscode-eslint
@@ -104,7 +102,7 @@ VSCODEEXTENSIONS=(
     ryanolsonx.solarized
 )
 
-step "Making directories…"
+step "Installing VS Code extensions…"
 for vscodeextension in ${VSCODEEXTENSIONS[@]}; do
     code --install-extension $vscodeextension
 done

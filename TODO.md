@@ -11,3 +11,7 @@
 - Need to download solarized before installing it (.macos-prefs)
 - Copy .dotfiles into ~/ at start
 - Delete .dotfiles from ~/ at end
+- zhshell customisations
+- Get sky stuff working
+- Get sky stuff going in the right directory
+- Add message to reboot

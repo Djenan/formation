@@ -1,5 +1,5 @@
 step "Making Sky directory…"
-mkd ~/Projects/Sky
+mkdir ~/Projects/Sky
 
 SKYAPPS=(
     gitlab@git.bskyb.com:sdc-sports/uk-sport-web.git
